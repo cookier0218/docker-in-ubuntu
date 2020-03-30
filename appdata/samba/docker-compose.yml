@@ -11,4 +11,4 @@ services:
     ports:
       - "445:445"
       - "139:139"
-    command: -u "kris;justplus" -s "lede;/share/lede;yes;no;no;kris" -s "appdata;/share/appdata;yes;no;no;kris;kris"
+    command: -u "kris;password" -s "lede;/share/lede;yes;no;no;kris" -s "appdata;/share/appdata;yes;no;no;kris;kris"
